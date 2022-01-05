@@ -1,0 +1,166 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: #F5F5F5;
+}
+.logo{
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.bar{
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 2px;
+}
+.contenedor{
+    background-color: #F4F4F4;
+    width: 320px;
+    height: 420px;
+    display: block;
+    margin:auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 40px  rgb(0,0,0,.25);
+}
+.bienvenida{
+    display: block;
+    margin: auto;
+}
+
+.hola{
+    font-family: 'Segoe UI Blod';
+    text-align: center;
+    font-size: 30px;
+}
+
+.inicia-acceder{
+    font-family: 'Segoe UI';
+    text-align: center;
+    font-size: 13px;
+}
+.datos{
+    display: flex;
+    margin: auto;
+    width: 250px;
+    height: 40px;
+    background-color: #D9E2E8;
+
+    border-radius: 1px;
+    box-shadow: 0px 2px 10px  rgb(0,0,0,.25);
+}
+
+
+i{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+.fa-eye{
+    margin-left:auto;
+    margin-right: 10px;
+}
+
+.datos-us-cont{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+    font-family: 'Segoe UI';
+    font-size: 15px;
+}
+
+.mantener-olvide{
+    display: flex;
+    margin-top: 20px;   
+}
+
+.checkbox{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+
+.mantener{
+    font-size: 13px;
+    margin-left: 25px;
+}
+.olvide{
+    margin-left: auto;
+    margin-right: 25px;
+    font-size: 12px;
+}
+
+.boton-inicio{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: #8AD06E;
+    box-shadow: 0px 2px 10px  rgb(0,0,0,.25);
+    margin-bottom: 10px;
+}
+
+.texto-inicio{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI';
+    font-size: 15px;
+
+}
+
+.barra{
+    display: flex;
+    margin-bottom: 10px;
+}
+.linea{    
+    margin-top: 30px;
+    background-color: black;
+    height: 1px;
+    width: 90px;
+    margin:auto;
+}
+
+.redes-sociales{
+    display: flex;
+    justify-content: center;
+}
+
+.fa-twitter{
+    margin-left: 50px;
+    margin-right: 50px;
+    color:#00acee;
+    font-size: 35px;
+}
+
+.fa-facebook{
+    color:#3b5998;
+    font-size: 35px;
+}
+
+.fa-google{
+    color:#db4a39;
+    font-size: 35px;
+}
+.registrar{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.registrar-texto{
+    text-align: center;
+}
+
+.registrate{
+    margin-left: 5px;
+    color:#0981CE;
+}
