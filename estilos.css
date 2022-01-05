@@ -164,3 +164,12 @@ i{
     margin-left: 5px;
     color:#0981CE;
 }
+
+@media screen and (min-width: 900px) {
+    .logo{
+        width: 20%;
+    }
+    .bar{
+        width: 320px;
+    }
+}
